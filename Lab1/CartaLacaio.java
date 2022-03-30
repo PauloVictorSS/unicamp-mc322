@@ -3,7 +3,7 @@
  * alterar e ler o valor deles
  */
 
-package Laboratorio1;
+package Lab1;
 
 public class CartaLacaio{
 

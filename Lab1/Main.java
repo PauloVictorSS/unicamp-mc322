@@ -3,7 +3,7 @@
  * e imprime os valores de cada uma das cartas na tela
  */
 
-package Laboratorio1;
+package Lab1;
 
 public class Main{
 	public static void main(String[] args) {
