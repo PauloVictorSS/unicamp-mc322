@@ -1,3 +1,8 @@
+/**
+ * Classe CartaMagia que tem um conjunto de atributos e os metodos get e set para
+ * alterar e ler o valor deles
+ */
+
 package Laboratorio1;
 
 public class CartaMagia {
@@ -55,7 +60,7 @@ public class CartaMagia {
     public String toString(){
 
         String out = getNome() +" ( ID : "+ getID() +" )\n";
-        
+
         out = out + "dano = "+ getDano() +"\n";
         out = out + "area = "+ getArea() +"\n";
         out = out + "Custo de Mana = "+ getCustoMana() +"\n";

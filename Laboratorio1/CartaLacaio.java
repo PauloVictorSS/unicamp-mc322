@@ -1,3 +1,8 @@
+/**
+ * Classe CartaLacaio que tem um conjunto de atributos e os metodos get e set para
+ * alterar e ler o valor deles
+ */
+
 package Laboratorio1;
 
 public class CartaLacaio{

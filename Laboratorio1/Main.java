@@ -1,3 +1,8 @@
+/**
+ * Classe Main.java que cria instancias das classes CartaLacaio e CartaMagia
+ * e imprime os valores de cada uma das cartas na tela
+ */
+
 package Laboratorio1;
 
 public class Main{
