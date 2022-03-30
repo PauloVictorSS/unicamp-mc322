@@ -8,11 +8,12 @@ public class CartaMagia {
     private boolean area;
     private int custoMana;
 
-    public CartaMagia(int ID, String nome, int dano, int custoMana){
+    public CartaMagia(int ID, String nome, int dano, boolean area, int custoMana){
 
         this.ID = ID;
         this.nome = nome;
         this.dano = dano;
+        this.area = area;
         this.custoMana = custoMana;
     }
 
@@ -54,6 +55,7 @@ public class CartaMagia {
     public String toString(){
 
         String out = getNome() +" ( ID : "+ getID() +" )\n";
+        
         out = out + "dano = "+ getDano() +"\n";
         out = out + "area = "+ getArea() +"\n";
         out = out + "Custo de Mana = "+ getCustoMana() +"\n";
