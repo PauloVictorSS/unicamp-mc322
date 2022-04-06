@@ -1,0 +1,13 @@
+1. Eles receberam o valor 0 por padrão, por não termos atribuidos um valor específico a esses atributos.
+
+2. 
+
+3. Ele está imprimindo Lab2RA248438@ + numero, que possívelmente é a referência para o objeto.
+
+4. Os atributos deles terão os mesmos valores, entretanto, estarão referenciando objetos diferentes.
+
+5. Ele dá um erro, pois quando tentamos acessar o atrbuto na forma mag1.nome, estamos tentanto acessar
+o valor de um atributo privado, ou seja, somente a propria classe tem acesso a esse valor. Por isso utilizamos
+as funções get() e set() para cada atributo, para que possamos receber e alterar, respectivamente, aquele
+atribulo. Colocamos como 'private' esses atributos para termos certeza sobre quem pode acessar/alterar essas 
+informações.
